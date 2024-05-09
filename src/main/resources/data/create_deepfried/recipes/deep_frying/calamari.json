@@ -3,7 +3,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:ink_sac"
+      "tag": "forge:squid"
     },
     {
       "amount": 125,

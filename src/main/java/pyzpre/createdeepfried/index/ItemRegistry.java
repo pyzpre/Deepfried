@@ -38,13 +38,13 @@ public class ItemRegistry {
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.2f).build()))
             .register();
     public static final ItemEntry<asian> SPRINGROLL = REGISTRATE.item("springroll", asian::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.5f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(10).saturationMod(0.5f).build()))
             .register();
     public static final ItemEntry<japan> RAW_TEMPURA = REGISTRATE.item("raw_tempura", japan::new)
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.2f).build()))
             .register();
     public static final ItemEntry<japan> TEMPURA = REGISTRATE.item("tempura", japan::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.4f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(12).saturationMod(0.4f).build()))
             .register();
     public static final ItemEntry<greece> CALAMARI = REGISTRATE.item("calamari", greece::new)
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.5f).build()))
@@ -56,19 +56,19 @@ public class ItemRegistry {
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(4).fast().saturationMod(0.3f).build()))
             .register();
     public static final ItemEntry<germany> BERLINER = REGISTRATE.item("berliner", germany::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.2f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.2f).build()))
             .register();
     public static final ItemEntry<germany> COATED_BERLINER = REGISTRATE.item("coated_berliner", germany::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.3f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(9).saturationMod(0.3f).build()))
             .register();
     public static final ItemEntry<germany> COATED_HONEY_BERLINER = REGISTRATE.item("coated_honey_berliner", germany::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(10).saturationMod(0.6f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(11).saturationMod(0.6f).build()))
             .register();
     public static final ItemEntry<germany> COATED_CHOCOLATE_BERLINER = REGISTRATE.item("coated_chocolate_berliner", germany::new)
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(13).saturationMod(0.9f).build()))
             .register();
     public static final ItemEntry<germany> HONEY_BERLINER = REGISTRATE.item("honey_filled_berliner", germany::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(9).saturationMod(0.5f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(10).saturationMod(0.5f).build()))
             .register();
     public static final ItemEntry<germany> CHOCOLATE_BERLINER = REGISTRATE.item("chocolate_filled_berliner", germany::new)
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(12).saturationMod(0.8f).build()))
