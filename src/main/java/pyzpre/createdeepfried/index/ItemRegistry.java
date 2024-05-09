@@ -89,7 +89,7 @@ public class ItemRegistry {
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.4f).build()))
             .register();
     public static final ItemEntry<italy> PANZEROTTO = REGISTRATE.item("panzerotto", italy::new)
-            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(9).saturationMod(0.8f).build()))
+            .properties(p -> p.food((new FoodProperties.Builder()).nutrition(12).saturationMod(0.8f).build()))
             .register();
     public static final ItemEntry<uk> RAW_ONION_RINGS = REGISTRATE.item("raw_onion_rings", uk::new)
             .properties(p -> p.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.4f).build()))
