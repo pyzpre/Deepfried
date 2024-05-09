@@ -1,0 +1,27 @@
+{  "conditions": [
+  {
+    "type": "forge:mod_loaded",
+    "modid": "farmersdelight"
+  }
+],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:dough"
+
+    },
+    {
+      "tag": "minecraft:fishes"
+
+    },
+    {
+      "tag": "create_deepfried:fd_vegetables"
+
+    }
+  ],
+  "results": [
+    {
+      "item": "create_deepfried:raw_tempura"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Gradle files
+.gradle/
+
+# Ignore Eclipse IDE settings
+.settings/
+
+# Ignore build output directories
+build/
+
+# Ignore library directories
+libs/
+run/

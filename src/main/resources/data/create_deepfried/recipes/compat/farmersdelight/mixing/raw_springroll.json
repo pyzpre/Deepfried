@@ -1,0 +1,28 @@
+{  "conditions": [
+  {
+    "type": "forge:mod_loaded",
+    "modid": "farmersdelight"
+  }
+],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:dough"
+
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+
+    },
+    {
+      "item": "minecraft:porkchop"
+
+    }
+  ],
+  "results": [
+    {
+      "item": "create_deepfried:raw_springroll",
+      "count": 2
+    }
+  ]
+}
