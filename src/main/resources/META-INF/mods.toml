@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="create_deepfried"
-version="0.1.0"
+version="0.1.1"
 displayName="Create: Deepfried"
 logoFile="logo.png"
 authors="Pyzpre, Vitecekuwu"

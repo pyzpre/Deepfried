@@ -24,7 +24,7 @@ apply plugin: 'application'
 jarJar.enable()
 
 
-version = '0.1.0'
+version = '0.1.1'
 group = 'pyzpre.create_deepfried'
 archivesBaseName = 'create_deepfried'
 
